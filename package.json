@@ -5,7 +5,9 @@
   "keywords": [
     "react",
     "keypress",
-    "react-hooks"
+    "react-hooks",
+    "react-context-api",
+    "HOC"
   ],
   "dependencies": {
     "keypress.js": "^2.1.5",

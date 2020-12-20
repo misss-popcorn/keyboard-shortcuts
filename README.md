@@ -5,7 +5,6 @@ A library to bind keyboard shortcuts in your React App.
 * Take Key combination as input
 * Suppports callback for the key shortcut you like
 
-## tl;dr
 * Install by executing `npm install @missspopcorn/keyboard-shortcuts`.
 * Import by adding `import { KeyboardShortcuts } from "@missspopcorn/keyboard-shortcuts'`.
 * Use by adding `<KeyboardShortcut />`.
@@ -13,6 +12,10 @@ A library to bind keyboard shortcuts in your React App.
 ## Demo
 
 A minimal demo can be found in `components` directory and `App.js`.
+
+## Code
+
+The code for this library can be found in `utils` directory.
 
 [Online demo](https://jovial-davinci-d3bd41.netlify.app/) is also available!
 
@@ -37,7 +40,6 @@ Here's an example of basic usage:
 import { KeyboardShortcut } from "@missspopcorn/keyboard-shortcuts";
 
 function MyApp() {
-  const [value, onChange] = useState(new Date());
 
   return (
     <div>
@@ -77,7 +79,7 @@ The MIT License.
     <td>
       Miss Popcorn<br />
       <a href="mailto:urvashi.soni05@gmail.com">urvashi.soni05@gmail.com</a><br />
-      <a href="https://www.missspopcorn.com/">Portfolio</a>
+      <a href="https://www.missspopcorn.com/">Miss Popcorn</a>
     </td>
   </tr>
 </table>
