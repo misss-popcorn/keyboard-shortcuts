@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+  .container-item {
+    flex: 0 1 50%;
+      display: flex;
+      height: 25vw;
+      max-width: 50%;
+      flex-wrap: wrap;
+      align-items: flex-start;
+  }
+  .container-list {
+    flex: 0 1 50%;
+  }
+  .container-item > b{
+    padding: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    color: white;
+  }
+  
